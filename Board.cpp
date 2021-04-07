@@ -55,7 +55,7 @@ namespace ariel
             message += this->board[row][col].ch;
             if(orientation == Direction::Horizontal){
                 col++;
-            }else row++;
+            }else{row++;}
         }
 
         return message;
